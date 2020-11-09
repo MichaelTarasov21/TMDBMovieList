@@ -1,5 +1,5 @@
 const apikey = "3f608c38cd2f8183bcad8e64c24884f9";
-const queryurl = `https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`;
+const queryurl = `https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&year=2010`;
 const genreurl = `https://api.themoviedb.org/3/genre/movie/list?api_key=${apikey}&language=en-US`;
 let request = new XMLHttpRequest();
 let genres = new XMLHttpRequest();
